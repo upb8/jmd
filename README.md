@@ -1,68 +1,70 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# File Upload Tutorial
 
-## Available Scripts
+*File upload tutorial using React.js & Node.js*
 
-In the project directory, you can run:
+## Getting Started
 
-### `npm start`
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+### Prerequisites
 
-### `npm test`
+You are going to need **Node.js** and **npm** installed on your machine.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installing
 
-### `npm run build`
+How to properly install and configure this repository to work on your machine.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Cloning the repository
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+```
+git clone ...
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Enter cloned directory
 
-### `npm run eject`
+```
+cd file-upload/
+```
+Enter Backend directory and do npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+cd file-upload/backend && npm install --save
+```
+Enter Frontend directory and do npm install
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+cd file-upload/frontend && npm install --save
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Starting the repository on your machine
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+You will need to run Backend & Frontend seperately, ports are already configured, make sure you don't conflict them if you change anything.
 
-## Learn More
+Enter Frontend directory and do npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+cd file-upload/frontend && npm start
+```
+Enter Backend directory and do npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+cd file-upload/backend && npm start
+```
 
-### Code Splitting
+Now you can load **localhost:3000** in your browser and use the app.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## Built With
 
-### Analyzing the Bundle Size
+* [React](https://reactjs.org/) - Frontend javascript library
+* [Node](https://nodejs.org/en/) - Backend framework
+* [Express](https://expressjs.com/) - Node.js web application framework
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## Authors
 
-### Making a Progressive Web App
+* **Antonio Erdeljac** - *Initial work* - [File-Upload-Tutorial](https://github.com/AntonioErdeljac)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## Acknowledgments
 
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+* This is a repository for my [Medium.com tutorial](https://medium.com/@_aerdeljac/file-upload-with-node-js-react-js-686e342ad7e7)
+* AirBnB's coding rules are applied in the frontend.
